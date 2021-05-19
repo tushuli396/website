@@ -1,0 +1,344 @@
+
+.links{
+    
+    text-decoration: none;
+    float:right;
+    color:#1e1e2f;
+    font-weight: bold;
+    font-family: Times, Times New Roman, serif;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.links:hover{
+   color:crimson;
+   
+}
+.navbar{
+ background-color: salmon;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://www.sundayguardianlive.com/wp-content/uploads/2018/02/poor%20education%20major%20concerns%20children.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 100px;
+  text-align: center;
+}
+
+  
+  
+.team{
+  position: absolute;
+  top:1900px;
+  left:50px;
+  font-size: 40px;
+ background-color:lightsalmon;
+  border:black solid 3px;
+  font: weight 20px;
+
+}
+.team:hover{
+  background-color:black;
+  color: lightyellow;
+}
+.team-para{
+    position: absolute;
+    top:2000px;
+    left:45px;
+    font-size: 20px;
+    right: 1100px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.vision{
+    position: absolute;
+    top:975px;
+    left:50px;
+    font-size: 40px;
+   background-color:lightsalmon;
+    border:black solid 3px;
+    font: weight 20px;
+}
+.vision:hover{
+  background-color:black;
+  color: lightyellow;
+}
+.vision-para{
+    position: absolute;
+    top:1075px;
+    left:50px;
+    font: 20px;
+    font-weight: 500;
+   
+}
+
+.footer{
+    position: absolute;
+    top:2200px;
+    background-color:lightslategray;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery1 , .gallery2 , .gallery3 , .gallery4 {
+  border: 1px solid #777;
+}
+
+.gallery1 {
+  position: absolute;
+  top:1300px;
+  left:55px;
+  border-radius: 50%;
+  opacity: 90%;
+}
+
+.gallery2{
+position: absolute;
+top:1300px;
+  left:455px;
+  border-radius: 50%;
+}
+
+.gallery3{
+  position: absolute;
+  top:1300px;
+  left:855px;
+  border-radius: 50%;
+  }
+ 
+.gallery4{
+    position: absolute;
+    top:1300px;
+    left:1255px;
+    border-radius: 50%;
+    }
+    
+    
+.gallery1 img , .gallery2 img , .gallery3 img , .gallery4 img {
+  border-radius: 50%;
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  color: lightyellow;
+  border-radius: 50%;
+}
+
+.gallery1:hover .overlay {
+  opacity: 1;
+}
+
+.gallery2:hover .overlay {
+  opacity: 1;
+}
+
+.gallery3:hover .overlay {
+  opacity: 1;
+}
+
+.gallery4:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.absolute11:hover .overlay {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top:250px;
+  left:200px;
+  width: 1200px;
+  height:600px;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 100%;
+  right: 1000px;;
+  top:300px;
+  background-color: #008CBA;
+  overflow: hidden;
+  width:0%;
+  height:0%;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+  height:500px;
+  width:500px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.headings2{
+  position: absolute;
+  top:1200px;
+  left:50px;
+  font-size: 40px;
+ background-color: lightsalmon;
+  border:black solid 3px;
+  font: weight 20px;
+}
+.headings2:hover{
+  background-color:black;
+  color: lightyellow;
+}
+.views1{
+  text-align: left;
+  border:black solid 3px;
+  position: absolute;
+  top:1575px;
+  left:5px;
+  width:320px;
+  height:200px;
+
+}
+.views1:hover{
+  background-color:black;
+  color: lightyellow;
+}
+.views2{
+  text-align: left;
+  border:black solid 3px;
+  position: absolute;
+  top:1575px;
+  left:400px;
+  width:320px;
+  height:200px;
+
+}
+.views2:hover{
+  background-color:black;
+  color: lightyellow;
+}
+
+.views3{
+  text-align: left;
+  border:black solid 3px;
+  position: absolute;
+  top:1575px;
+  left:795px;
+  width:320px;
+  height:200px;
+
+}
+.views3:hover{
+  background-color:black;
+  color: lightyellow;
+}
+
+.views4{
+  text-align: left;
+  border:black solid 3px;
+  position: absolute;
+  top:1575px;
+  left:1190px;
+  width:320px;
+  height:200px;
+}
+
+.views4:hover{
+  background-color:black;
+  color: lightyellow;
+}
+
+
+.team-image-one{
+  position: absolute;
+  top:1900px;
+  left:450px;
+  
+}
+.team-image-two{
+  position: absolute;
+  top:1900px;
+  left:800px;
+  
+}
+.team-image-three{
+  position: absolute;
+  top:1900px;
+  left:1150px;
+  
+}
