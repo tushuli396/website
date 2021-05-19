@@ -97,7 +97,7 @@ body, html {
     font-size: 40px;
    background-color:lightsalmon;
     border:black solid 3px;
-    font: weight 20px;
+    font-weight: 20px;
 }
 .vision:hover{
   background-color:black;
@@ -258,7 +258,7 @@ top:1300px;
   font-size: 40px;
  background-color: lightsalmon;
   border:black solid 3px;
-  font: weight 20px;
+  font-weight: 20px;
 }
 .headings2:hover{
   background-color:black;
